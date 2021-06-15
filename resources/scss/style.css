@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -11,18 +12,30 @@ body {
 }
 
 nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
   height: 100px;
   background-color: white;
 }
 
 nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 nav ul li {
@@ -35,6 +48,7 @@ nav ul li a {
   margin: 30px;
   font-family: "Lato", sans-serif;
   font-weight: bold;
+  -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
 
@@ -60,9 +74,15 @@ nav li a:hover:hover {
 }
 
 .both {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .text-sec {
@@ -75,6 +95,7 @@ nav li a:hover:hover {
   height: 40px;
   background-color: #FE5F1E;
   border-radius: 100px;
+  -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
 
@@ -94,6 +115,7 @@ nav li a:hover:hover {
 .add-to-cart {
   border: 2px solid #FE5F1E;
   color: #FE5F1E;
+  -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
 
@@ -104,8 +126,8 @@ nav li a:hover:hover {
 }
 
 .main-card {
-  -moz-column-rule: 2rem;
-       column-rule: 2rem;
+  -webkit-column-rule: 2rem;
+          column-rule: 2rem;
   row-gap: 5rem;
 }
-
+/*# sourceMappingURL=style.css.map */
