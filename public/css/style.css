@@ -109,3 +109,36 @@ nav li a:hover:hover {
   row-gap: 5rem;
 }
 
+section.cart {
+  background: #F8F8F8;
+}
+
+.amount {
+  color: #FE5F1E;
+}
+
+.btn-primary {
+  color: #F8F8F8;
+  height: 40px;
+  background-color: #FE5F1E;
+  text-align: center;
+  transition: all 0.3s linear;
+}
+
+.btn-primary:hover {
+  background-color: #b23301;
+}
+
+section.login {
+  background: #F8F8F8;
+  min-height: calc(100vh - 80px);
+}
+
+section.login a {
+  color: #FE5F1E;
+}
+
+section.login a:hover {
+  color: #b23301;
+}
+

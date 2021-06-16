@@ -98,3 +98,33 @@ nav li a:hover {
     row-gap: 5rem;
     
 }
+section.cart{
+  background: $secondary;
+}
+.amount{
+  color: $primary;
+}
+.btn-primary{
+  // width: 120px;
+  color:$secondary ;
+  height: 40px;
+  background-color: $primary;
+  // border-radius: 100px;
+  text-align: center;
+  transition: $trans;
+  &:hover{
+    background-color: $primary-hover;
+  }
+}
+
+// login
+section.login{
+  background: $secondary;
+  min-height: calc(100vh - 80px);
+  a{
+    color: $primary;
+    &:hover{
+      color: $primary-hover;
+    }
+  }
+}
