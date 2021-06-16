@@ -10,12 +10,15 @@ const path = require('path')
  app.use(express.static('public'))
 // console.log(static)
 app.set('views',path.join(__dirname,'./resources/views'))
+app.set('views',path.join(__dirname,'./resources/views/customers'))
 app.set('view engine','ejs')
 
 app.get('/',(req,res)=>{
     res.render('index')
 })
-
+app.get('/cart',(req,res)=>{
+    res.render('cart')
+})
 
 app.listen(PORT,()=>{
     console.log('listening');
